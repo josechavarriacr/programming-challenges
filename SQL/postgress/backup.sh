@@ -17,6 +17,5 @@ SELECT nspname || '.' || relname AS "relation",
 # Example Backup
 pg_dump -h 198.51.100.0 -p 5432 dbname > dbname.bak
 
-
 # Example Restore
-pg_dump -h localhost -p 5432 -U postgres -F c -b -v -f  "/usr/local/backup/10.70.0.61.backup" old_db
+psql -h localhost -U db_user db_name < dump_name.sql
