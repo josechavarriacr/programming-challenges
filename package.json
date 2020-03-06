@@ -1,0 +1,9 @@
+{
+  "name": "programming-challenges",
+  "version": "1.0.0",
+  "description": "This repo contains a multiples resources (algorithms, exercises, examples, more) for various solutions to problems in coding",
+  "start": "node app.js",
+  "repository": "https://github.com/josechavarriacr/programming-challenges",
+  "author": "@josechavarriacr",
+  "license": "MIT"
+}
