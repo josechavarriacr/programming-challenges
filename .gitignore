@@ -62,11 +62,3 @@ typings/
 .DS_Store
 
 .vscode/
-
-# CDN Files
-services/cdn/files
-!services/cdn/files/.gitkeep
-
-# apps build
-apps/user-web/build/
-apps/home/build/
