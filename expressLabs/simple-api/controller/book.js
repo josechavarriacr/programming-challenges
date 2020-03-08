@@ -15,7 +15,7 @@ function create(req, res) {
     }))
   }
 
-async function list(res, next) {
+async function list(req, res, next) {
  try {
     const data = await models.Book.findAll({
       where: {
