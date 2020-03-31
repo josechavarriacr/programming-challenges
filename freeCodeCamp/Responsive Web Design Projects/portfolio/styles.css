@@ -1,0 +1,79 @@
+html,body{
+  font-family: 'Open Sans', sans-serif;
+  text-align:center;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#navbar {
+  position: fixed;
+  top: 0;
+}
+.intro {
+  top: 0;
+  background: #e0ebe8;
+  height: 100vh;
+  }
+
+.contact {
+  top: 0;
+  background: #e0ebe8;
+  height: 100vh;
+  padding-top: 45vh;
+}
+.work {
+  padding-top: 60px;
+  margin-top: -60px;
+}
+.work .work-header {
+  margin-top: 50px;
+  color: #008080;
+  font-weight: normal;
+}
+.project{
+   display: inline-block;
+  height: 220px;
+  width: 320px;
+ text-decoration: none;
+  color: #008080;
+   margin: 40px 100px;
+}
+.show-all{
+  display:block;
+}
+.contact-details {
+  display: inline-block;
+  height: 220px;
+  width: 280px;
+  overflow: hidden;
+}
+.project-title {
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 500px) {
+  nav ul {
+    text-align: center;
+  }
+  nav ul li {
+    margin: 20px;
+  }
+  .project {
+    margin: 40px 0;
+  }
+}
+@media only screen and (max-width: 367px) {
+  /*    #contact{
+    min-height:1100px;
+  } */
+  .contact-details {
+    border: 2px solid #90C695;
+    border-radius: 0;
+    width: 90px;
+    height: 20px;
+    padding: 10px;
+    line-height: normal;
+  }
+}
