@@ -1,25 +1,25 @@
-// function migratoryBirds(arr) {
-// const sortedNumbs = sortNums(arr);
-// let item;
-// let counterOne = 0;
-// let counterTwo = 1;
+function migratoryBirds(arr) {
+const sortedNumbs = sortNums(arr);
+let item;
+let counterOne = 0;
+let counterTwo = 1;
 
-// for (let i = 0; i < sortedNumbs.length; i++) {
-//     for (let i = 0; i < sortedNumbs.length; i++) {
-//         for (let j = i; j < sortedNumbs.length; j++) {
-//             if (sortedNumbs[i] === sortedNumbs[j]) {
-//                 counterOne++ 
-//                 if(counterOne >= counterTwo){
-//                     counterTwo = counterOne
-//                     item = sortedNumbs[j]
-//                 }
-//             }
-//         }
-//         counterOne = 0
-//     }
-// }
-// return item;
-// }
+for (let i = 0; i < sortedNumbs.length; i++) {
+    for (let i = 0; i < sortedNumbs.length; i++) {
+        for (let j = i; j < sortedNumbs.length; j++) {
+            if (sortedNumbs[i] === sortedNumbs[j]) {
+                counterOne++ 
+                if(counterOne >= counterTwo){
+                    counterTwo = counterOne
+                    item = sortedNumbs[j]
+                }
+            }
+        }
+        counterOne = 0
+    }
+}
+return item;
+}
 
 function sortNums(arr) {
     let nums = arr;
