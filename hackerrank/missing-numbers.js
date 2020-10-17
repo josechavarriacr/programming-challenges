@@ -12,10 +12,10 @@ function missingNumbers(arr, brr) {
         if(compareOne != compareTwo) {
             difference.push(i)
         }
-});
-  
-const removedRepeat = [...new Set(difference)]
-return removedRepeat.sort((a, b) => a -b)
+    });
+    
+    const removedRepeat = [...new Set(difference)]
+    return removedRepeat.sort((a, b) => a -b)
 }
 
 function findAndRepeat(list, num) {
